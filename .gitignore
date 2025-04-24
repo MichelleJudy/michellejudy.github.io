@@ -1,3 +1,10 @@
+# frontmatter
+.frontmatter/
+frontmatter.json
+
+# vscode
+.vscode/
+
 # build output
 dist/
 # generated types
@@ -19,6 +26,3 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-
-# jetbrains setting folder
-.idea/
