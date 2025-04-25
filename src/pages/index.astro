@@ -1,25 +1,37 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Hello, My name is Michelle!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Rooted Reflections</h1>
+      <h2>Words to pause with.</h2>
+      <h2>Thoughts to grow by.</h2>
+
+      <p>
+        Welcome, wanderer.<br />I’m so glad you’re here.<br /><br />Rooted
+        Reflections is a quiet corner on the internet — a space to slow down,
+        breathe a little deeper, and come home to yourself. Through words,
+        voice, and story, I explore the themes of awareness, gratitude,
+        identity, and slow, soul-rooted growth.<br /><br />Each week, you’ll
+        find:<br /><br />📚 Two blog posts that reflect on the deeper things we
+        often overlook<br />🎙️ One podcast episode that brings those ideas to
+        life in a voice-led format<br />📱 Voiceover reels that offer gentle
+        reminders and reflections throughout your week.<br /><br />This space
+        isn’t about quick fixes or forced positivity. It’s about noticing.
+        Wandering. Growing at your own pace. Because sometimes, the smallest
+        shifts create the most meaningful change.
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
