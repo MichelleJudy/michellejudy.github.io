@@ -11,7 +11,7 @@ heroImage: /blog-placeholder-2.jpg
 
 ---
 
-### ** Reflective Questions:**
+### **Reflective Questions:**
 
 Taken your New Year’s resolution yet?
 Or is it the same one from last year — still in limbo, quietly gathering dust?
